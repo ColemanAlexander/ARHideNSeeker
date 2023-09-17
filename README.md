@@ -1,5 +1,5 @@
 # ARHideNSeeker
-Developed alongside: 4019534
+Developed alongside: [4019534](https://github.com/4019534)
 
 ## Software used
 - Unity
