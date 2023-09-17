@@ -6,7 +6,7 @@ Developed alongside: 4019534
 - Vuforia Engine
 
 ## Description of application
-This is a hidden object game where a list of objects are given on the screen and you have to find the corresponding image in the area. Point your camera at the image to verify it is the correct image. Find all the images to get a prize!!!
+This is a hidden object game where a list of objects is presented on the screen, and your task is to locate the matching image within the environment. To confirm its correctness, simply aim your camera at the image. Discovering all the images unlocks a rewarding prize!
 link to apk in drive: https://drive.google.com/file/d/1QstlbPMaCMzK6vKXXzo82rPepMMbly6O/view?usp=drive_link 
 
 We utilized Unity to develop an AR application that accomplishes the aforementioned tasks. The initial screen features a simple UI design created using Unity's basic assets. Upon clicking the "Start Game" button, the user is seamlessly transitioned to the AR experience within the application.
