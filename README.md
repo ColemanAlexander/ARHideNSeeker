@@ -40,10 +40,14 @@ As the foundation of our augmented reality (AR) adventure took shape, a pivotal 
 
 Intriguingly, these seemingly innocuous boxes held the keys to unravelling the mysteries of our augmented reality adventure, and we'll delve deeper into their significance in the unfolding of our narrative. Before we delve further into the intricacies of our AR adventure, it's important to appreciate the thought and effort that went into crafting this intuitive and engaging UI. These elements, meticulously positioned on our UI plane, were the gateway to a world where imagination met technology, and where users could embark on a captivating journey of discovery and rewards.
 
+GUI:
+![image](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/c666a9a4-5489-4a5d-90de-cf30acfb062e)
+
+
+Transparent boxes:
+
 
 ![WhatsApp Image 2023-09-18 at 18 24 46](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/ac556652-cf72-4e82-ad5f-04c0bf5e146f)
-
-![image](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/c666a9a4-5489-4a5d-90de-cf30acfb062e)
 
 
 ### Step 3:
@@ -55,7 +59,13 @@ This carefully selected audio cue was reminiscent of those suspenseful game show
 Our innovation didn't stop there. To ensure a seamless and responsive experience, we programmed the function to halt the audio cue once the image target was untracked by the AR camera.
 This responsive behaviour added a layer of realism and interactivity to our AR adventure, making users feel truly immersed in the quest for hidden objects.
 In essence, the creation of these "incorrect" image targets involved more than just technical configuration. It was a process that melded creativity with precision, with each element carefully orchestrated to enhance the overall user experience. These targets served as not just static markers but as dynamic storytellers, guiding users through a world where hidden treasures and surprises awaited their discovery.
-![WhatsApp Image 2023-09-18 at 18 24 45](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/3ffdebdc-a2e3-46dc-977a-374e1f373a82)
+
+Incorrect image:
+
+![WhatsApp Image 2023-09-18 at 18 24 46 (2)](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/3ceae2c3-cb83-4a9a-8944-85000cfdc908)
+
+
+Correct Image:
 
 ![WhatsApp Image 2023-09-18 at 18 24 47](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/cb12f282-5fa1-41c3-bfa7-903f85e1141a)
 
@@ -75,6 +85,10 @@ The beauty of this interaction lay in its immediacy. Users could witness the tra
 In the final and most exciting step of the game, as the user successfully navigates through the challenges and locates all the hidden objects, they eventually reach the winner's canvas. Here, a special winner image target comes into play. When the user scans this image target with their camera, it triggers a captivating sequence. 
 
 Upon scanning the winner image target, the user is gracefully ushered into a dedicated canvas, where they are treated to a celebratory video. This thrilling video serves as the grand finale, bringing their adventurous journey to a satisfying and joyous conclusion. It's the perfect reward for their diligent efforts and successful object-finding skills!
+
+Penultimate screen:
+
+
 ![WhatsApp Image 2023-09-18 at 18 24 45](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/03fd0824-b7fc-459f-a68c-817e2f980de8)
 
 
