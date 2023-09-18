@@ -79,7 +79,51 @@ As with the "incorrect" image targets, the "correct" image targets underwent met
 What sets the "correct" image targets apart is their mission to render the transparent boxes within the user interface invisible upon detection. Achieving this required a carefully orchestrated sequence of actions, all encapsulated within a function residing within the Inspector panel.
 Within this function, a captivating transformation unfolded. The moment the AR camera successfully identified and locked onto a "correct" image target, a series of enchanting actions were set into motion.
 The key objective here was to make the transparent boxes, initially serving as visual cues, appear as if they had vanished into thin air. This illusion was achieved by changing their transparency settings, effectively making them invisible while retaining their physical presence on the screen.
-The beauty of this interaction lay in its immediacy. Users could witness the transparent boxes seamlessly disappearing as they successfully located and focused on the "correct" image targets, instantly gratifying their efforts and adding a layer of delight to their gameplay.
+The beauty of this interaction lay in its immediacy. Users could witness the transparent boxes seamlessly disappearing as they successfully located and focused on the "correct" image targets, instantly gratifying their efforts and adding a layer of delight to their gameplay. This is achieved through the script Win.c. The script Win.cs, is attached to the Object Canvas (holds all the object text that appears at the bottom of screen). Its function is to check whether all children of the canvas are inactive. If they are then it will activate the Win canvas and the Winner image target. 
+
+#### Win.cs code snippet:
+
+    using UnityEngine;
+
+    public class Win : MonoBehaviour
+    {
+    public Canvas current, navigateTo;
+    public GameObject award;
+    public GameObject[] children;
+    public bool canvasChildren;
+
+    private void Update()
+    {
+       
+        canvasChildren  = true;
+
+        // foreach (Transform child in current.transform)
+        // {
+        //     if (child.gameObject.activeSelf)
+        //     {
+        //         canvasChildren = false;
+        //         break; 
+        //     }
+        // }
+        for(int i =0; i<children.Length;i++)
+        {
+             if (children[i].activeSelf)
+            {
+                canvasChildren = false;
+                break; 
+            }
+        }
+
+
+
+        if (canvasChildren)
+        {
+            navigateTo.gameObject.SetActive(true);
+            award.gameObject.SetActive(true);
+        }
+    }
+}
+
 
 
 ### Step 5:
