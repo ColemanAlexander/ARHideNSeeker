@@ -41,6 +41,8 @@ As the foundation of our augmented reality (AR) adventure took shape, a pivotal 
 Intriguingly, these seemingly innocuous boxes held the keys to unravelling the mysteries of our augmented reality adventure, and we'll delve deeper into their significance in the unfolding of our narrative. Before we delve further into the intricacies of our AR adventure, it's important to appreciate the thought and effort that went into crafting this intuitive and engaging UI. These elements, meticulously positioned on our UI plane, were the gateway to a world where imagination met technology, and where users could embark on a captivating journey of discovery and rewards.
 
 GUI:
+
+
 ![image](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/c666a9a4-5489-4a5d-90de-cf30acfb062e)
 
 
