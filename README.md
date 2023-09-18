@@ -16,3 +16,9 @@ At the bottom of the screen, six transparent boxes serve as visual cues for the 
 Once all boxes have been successfully removed, the application notifies the user of their eligibility to claim a "prize" by scanning the image displayed on the screen. Upon scanning this image, the user is rewarded with a celebratory video as their "prize."
 
 All images were obtained from https://pixabay.com and can be viewed in the images folder included in this repository. Invalid refers to images marked as incorrect within the context of the game. Valid refer to the images marked as correct. Prize.jpeg is the image that leads to the celebratory video.
+
+
+## Documented code
+
+As this application has been crafted within the Unity environment, its development centers prominently around the aspects of object design and creation, allowing for a streamlined approach to coding. In essence, the project prioritizes the visual and interactive elements, leveraging Unity's powerful tools and capabilities to bring ideas to life with a minimalistic coding footprint. In light of this development approach, I will provide a detailed and thorough step-by-step breakdown of the intricate process that led to the creation of this application, offering insights into how it seamlessly combines the realms of design and functionality within the Unity framework.
+
