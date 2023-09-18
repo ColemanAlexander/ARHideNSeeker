@@ -15,3 +15,4 @@ At the bottom of the screen, six transparent boxes serve as visual cues for the 
 
 Once all boxes have been successfully removed, the application notifies the user of their eligibility to claim a "prize" by scanning the image displayed on the screen. Upon scanning this image, the user is rewarded with a celebratory video as their "prize."
 
+All images were obtained from https://pixabay.com and can be viewed in the images folder included in this repository. Invalid refers to images marked as incorrect within the context of the game. Valid refer to the images marked as correct. Prize.jpeg is the image that leads to the celebratory video.
