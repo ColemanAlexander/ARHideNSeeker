@@ -6,16 +6,25 @@ Developed alongside: [4019534](https://github.com/4019534)
 - Vuforia Engine
 
 ## Description of application
-This is a hidden object game where a list of objects is presented on the screen, and your task is to locate the matching image within the environment. To confirm its correctness, simply aim your camera at the image. Discovering all the images unlocks a rewarding prize!
-link to apk in drive: https://drive.google.com/file/d/1QstlbPMaCMzK6vKXXzo82rPepMMbly6O/view?usp=drive_link 
+This engaging application offers an immersive gaming experience in the form of a hidden object game. Your objective is to locate a specific image from a given list of objects. To confirm your discovery, simply aim your camera at the sought-after image. And here's the exciting part – successfully uncovering all the hidden images unlocks a well-deserved and rewarding prize!
 
-We utilized Unity to develop an AR application that accomplishes the aforementioned tasks. The initial screen features a simple UI design created using Unity's basic assets. Upon clicking the "Start Game" button, the user is seamlessly transitioned to the AR experience within the application.
+To bring this delightful concept to life, we harnessed the power of Unity, a versatile and robust platform for creating interactive and visually stunning experiences. Let's delve into the intricacies of how this intriguing application was meticulously crafted.
 
-At the bottom of the screen, six transparent boxes serve as visual cues for the user, indicating the items they need to locate. These item images were first uploaded to the Vuforia portal and subsequently imported into Unity as a custom package. Notably, certain images are designated as incorrect, and this is communicated through a distinctive sound cue reminiscent of a game show sound effect. Similarly, when an image is identified as correct, activating the audio cue results in the corresponding box being removed.
+**User Interface and Transition**:
+The journey begins on a user-friendly interface, thoughtfully designed using Unity's fundamental assets. Upon initiating the game by clicking the "Start Game" button, users are seamlessly transported into the world of augmented reality (AR) within the application.
 
-Once all boxes have been successfully removed, the application notifies the user of their eligibility to claim a "prize" by scanning the image displayed on the screen. Upon scanning this image, the user is rewarded with a celebratory video as their "prize."
+**Visual Clues**:
+At the bottom of the screen, six transparent boxes play a pivotal role in guiding the user. These boxes serve as visual cues, hinting at the items that must be located within the area. These item images were meticulously curated and uploaded to the Vuforia portal, subsequently imported into Unity as a custom package. It's worth noting that certain images are intentionally marked as incorrect, and this is cleverly conveyed through a distinctive sound cue reminiscent of the suspenseful sound effects found in popular game shows. In a similar vein, when an image is correctly identified, triggering the corresponding audio cue leads to the satisfying removal of the corresponding box.
 
-All images were obtained from https://pixabay.com and can be viewed in the images folder included in this repository. Invalid refers to images marked as incorrect within the context of the game. Valid refer to the images marked as correct. Prize.jpeg is the image that leads to the celebratory video.
+**The Rewarding Climax**:
+Once all the boxes have been triumphantly removed from the AR landscape, the application notifies the user of their eligibility to claim a delightful "prize." The process involves scanning a designated image displayed on the screen, and upon scanning this image, users are treated to a celebratory video as their well-deserved "prize."
+
+**Image Attribution**:
+All the captivating images used in this application have been sourced from the treasure trove of creativity at https://pixabay.com and can be conveniently perused in the images folder thoughtfully included in this repository. For clarity, "Invalid" pertains to images earmarked as incorrect within the context of the game, while "Valid" denotes images confirmed as correct. As for "Prize.jpeg," this intriguing image serves as the gateway to the enchanting celebratory video, marking the culmination of your gaming adventure.
+
+For those eager to embark on this captivating journey, you can access the application by following this link to the APK hosted on Google Drive: [Application APK](https://drive.google.com/file/d/1QstlbPMaCMzK6vKXXzo82rPepMMbly6O/view?usp=drive_link).
+
+Get ready to embrace the challenge, explore the virtual realm, and uncover hidden treasures in this thrilling Unity-based AR adventure!
 
 
 ## Documented code
