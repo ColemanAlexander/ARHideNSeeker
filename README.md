@@ -41,6 +41,11 @@ As the foundation of our augmented reality (AR) adventure took shape, a pivotal 
 Intriguingly, these seemingly innocuous boxes held the keys to unravelling the mysteries of our augmented reality adventure, and we'll delve deeper into their significance in the unfolding of our narrative. Before we delve further into the intricacies of our AR adventure, it's important to appreciate the thought and effort that went into crafting this intuitive and engaging UI. These elements, meticulously positioned on our UI plane, were the gateway to a world where imagination met technology, and where users could embark on a captivating journey of discovery and rewards.
 
 
+![WhatsApp Image 2023-09-18 at 18 24 46](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/ac556652-cf72-4e82-ad5f-04c0bf5e146f)
+
+![image](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/c666a9a4-5489-4a5d-90de-cf30acfb062e)
+
+
 ### Step 3:
 Before we could seamlessly integrate these intriguing images into our user interface, a foundational step was required - the setup of image targets. These image targets were not just static elements; they were the dynamic triggers that would breathe life into our AR experience. By correctly configuring these targets, we ensured that our users would be guided through an engaging and interactive journey. Now, let's explore the intricacies of how we meticulously crafted the "incorrect" image targets. Within Unity's intuitive Inspector panel, we embarked on a journey of customization, tailoring the behaviour of each specific image target to align with the immersive gameplay we envisioned. Here's how we brought these elements to life: 
 As we entered the Inspector panel of a specific image target, we ventured into a realm of possibilities. Here, our creative vision merged seamlessly with Unity's functionality.
@@ -50,6 +55,11 @@ This carefully selected audio cue was reminiscent of those suspenseful game show
 Our innovation didn't stop there. To ensure a seamless and responsive experience, we programmed the function to halt the audio cue once the image target was untracked by the AR camera.
 This responsive behaviour added a layer of realism and interactivity to our AR adventure, making users feel truly immersed in the quest for hidden objects.
 In essence, the creation of these "incorrect" image targets involved more than just technical configuration. It was a process that melded creativity with precision, with each element carefully orchestrated to enhance the overall user experience. These targets served as not just static markers but as dynamic storytellers, guiding users through a world where hidden treasures and surprises awaited their discovery.
+![WhatsApp Image 2023-09-18 at 18 24 45](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/3ffdebdc-a2e3-46dc-977a-374e1f373a82)
+
+![WhatsApp Image 2023-09-18 at 18 24 47](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/cb12f282-5fa1-41c3-bfa7-903f85e1141a)
+
+
 
 ### Step 4:
 Our journey through the development of this augmented reality (AR) application continues with a closer look at the setup of the image targets for the "correct" images. This aspect of the application followed a similar path to the "incorrect" image targets, yet it introduced a unique twist that added depth and interactivity to the user experience. 
@@ -59,6 +69,13 @@ Within this function, a captivating transformation unfolded. The moment the AR c
 The key objective here was to make the transparent boxes, initially serving as visual cues, appear as if they had vanished into thin air. This illusion was achieved by changing their transparency settings, effectively making them invisible while retaining their physical presence on the screen.
 The beauty of this interaction lay in its immediacy. Users could witness the transparent boxes seamlessly disappearing as they successfully located and focused on the "correct" image targets, instantly gratifying their efforts and adding a layer of delight to their gameplay.
 
+
 ### Step 5:
 
-Explain prize-rickroll part...
+In the final and most exciting step of the game, as the user successfully navigates through the challenges and locates all the hidden objects, they eventually reach the winner's canvas. Here, a special winner image target comes into play. When the user scans this image target with their camera, it triggers a captivating sequence. 
+
+Upon scanning the winner image target, the user is gracefully ushered into a dedicated canvas, where they are treated to a celebratory video. This thrilling video serves as the grand finale, bringing their adventurous journey to a satisfying and joyous conclusion. It's the perfect reward for their diligent efforts and successful object-finding skills!
+![WhatsApp Image 2023-09-18 at 18 24 45](https://github.com/ColemanAlexander/ARHideNSeeker/assets/104588582/03fd0824-b7fc-459f-a68c-817e2f980de8)
+
+
+
